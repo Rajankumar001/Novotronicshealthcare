@@ -1,0 +1,34 @@
+.top-navbar{
+    padding-left: 2%;
+    padding-right: 4%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* background-color: #2A4759; */
+    background-color: #fcfafa;
+}
+.left-top-navbar{
+    display:flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
+.info-mail-title{
+    margin: 0;
+    font-family: poppins,sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    /* color: white; */
+    color: black;
+}
+.right-top-navbar{
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}

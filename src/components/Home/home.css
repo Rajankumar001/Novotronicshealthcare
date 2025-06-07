@@ -1,0 +1,118 @@
+.carousel-container{
+    width: 100%;
+    /* height: 450px; */
+}
+.carousel-image-style{
+    width: 100%;
+    height: 500px;
+}
+.banner-container{
+    margin-top: 2%;
+    background-color: rgb(4, 4, 76);
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    color: white;
+    font-family: poppins sans-serif;
+    font-size: 1.3rem;
+}
+.left-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    /* height: 300px; */
+}
+.right-banner{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    width: 50%;
+}
+.right-banner p{
+    padding: 2%;
+}
+.right-banner h2{
+   text-align: center;
+}
+.left-banner img{
+    width: 100%;
+    height: 100%;
+}
+.appContainer {
+  min-height: 100vh;
+  background-color: #f3f4f6; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem; 
+  font-family: 'Inter', sans-serif;
+}
+
+.heading {
+  font-size: 2.25rem; 
+  font-weight: 700;
+  color: #1f2937; 
+  margin-bottom: 2.5rem; 
+  text-align: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr)); 
+  gap: 1.5rem;
+  max-width: 72rem; 
+  width: 100%; 
+}
+
+@media (min-width: 640px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+  }
+}
+@media (min-width: 768px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  }
+}
+
+.cardItem {
+  border-radius: 10px;
+  background-color: #ffffff; 
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+  padding: 1.5rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition-property: transform, box-shadow; 
+  transition-duration: 300ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.cardItem:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); 
+}
+
+.cardImage {
+  width: 15rem;
+  height: 18rem; 
+  object-fit: cover;
+  margin-bottom: 1rem; 
+}
+
+.cardName {
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+border-radius: 50px;
+background-color: orange;
+  font-size: 1.25rem; 
+  font-weight: 600; 
+  color: #374151; 
+  margin-top: 0.5rem; 
+}
