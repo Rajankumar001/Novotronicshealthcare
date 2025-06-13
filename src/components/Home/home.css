@@ -8,7 +8,7 @@
 }
 .banner-container{
     margin-top: 2%;
-    background-color: rgb(4, 4, 76);
+    background-image: linear-gradient(to right, #205781,#4F959D );
     padding: 20px;
     width: 100%;
     display: flex;
@@ -23,7 +23,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 40%;
+    height: 100%;
     /* height: 300px; */
 }
 .right-banner{
@@ -36,10 +37,12 @@
 .right-banner p{
     padding: 2%;
 }
-.right-banner h2{
+.bannerTitle{
+   font-weight: 600;
    text-align: center;
 }
 .left-banner img{
+  border-radius: 10px;
     width: 100%;
     height: 100%;
 }
@@ -107,12 +110,19 @@
 
 .cardName {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   width: 90%;
 border-radius: 50px;
-background-color: orange;
+background-color: #4F959D ;
   font-size: 1.25rem; 
   font-weight: 600; 
-  color: #374151; 
+  color:white; 
   margin-top: 0.5rem; 
+}
+.customer-logos .slick-slide {
+  margin: 0 10px;
+}
+.customer-logos .slick-slide img {
+  width: 100%;
+  display: block;
 }
