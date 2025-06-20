@@ -12,7 +12,7 @@ function Navbar2() {
       <img src={Logo}  className='logo-image' alt='logo.png'/>
       </div>
       <div className="navbar-right desktop-menu">
-        <div className="dropdown active">Home
+        <div className="dropdown active" >Home
         </div>
         <div className="dropdown">About
           <div className="dropdown-content">
@@ -22,7 +22,7 @@ function Navbar2() {
         </div>
         <div className="dropdown">Product
           <div className="dropdown-content">
-            <a href="/">Lab Diagnostic</a>
+            <a href="/labDiagnostic">Lab Diagnostic</a>
             <a href="/">Critical Care</a>
             <a href="/">POCT Devices</a>
             <a href="/">Consumables</a>

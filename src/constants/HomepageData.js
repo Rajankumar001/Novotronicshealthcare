@@ -1,9 +1,9 @@
-import product1 from '../assets/images/product1.jpg'
+import product1 from '../assets/images/fluroimmunoassay.jpg'
 import product2 from '../assets/images/Electrolyte Analyzer.png'
-import product3 from '../assets/images/product3.png'
+import product3 from '../assets/images/hematology.png'
 import product4 from '../assets/images/syringe_pump.jpg'
-import product5 from '../assets/images/product5.png'
-import product6 from '../assets/images/product6.png'
+import product5 from '../assets/images/bloodgas.png'
+import product6 from '../assets/images/multipara.png'
 
 
 

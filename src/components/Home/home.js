@@ -99,6 +99,7 @@ function Home() {
         ))}
       </div>
     </div>
+     <h2 className='client-title'> Our Clients</h2>
     <div className='Our-clients'>
   <div className="customer-logos">
       <Slider {...settings}>
@@ -107,7 +108,6 @@ function Home() {
           <div className='client-image'><img src={GTB} alt="Logo 1" /></div>
             <div className='client-image'><img src={Burari} alt="Logo 1" /></div>
             <div className='client-image'><img src={Maharishi} alt="Logo 1" /></div>
-
       </Slider>
     </div>
     </div>
