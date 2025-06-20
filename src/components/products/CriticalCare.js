@@ -25,27 +25,27 @@ const ProductCard = ({ product, onViewMore }) => {
 const ProductDetail = ({ product, onBack }) => {
   return (
     <div className="product-detail-container">
-      <button
-        onClick={onBack}
-        className="back-button"
-      >
-        <ArrowLeft className="mr-2" size={30} />
-      </button>
-
-      <div className="product-detail-content">
-        <div className="product-detail-image-wrapper">
-          <img src={product.image} alt={product.name} className="product-detail-image" />
+          <button
+            onClick={onBack}
+            className="back-button"
+          >
+            <ArrowLeft className="mr-2" size={20} /> 
+          </button>
+    
+          <div className="product-detail-content">
+            <div className="product-detail-image-wrapper">
+              <img src={product.image} alt={product.name} className="product-detail-image" />
+            </div>
+            <div className="product-detail-info">
+              <h2 className="product-detail-name">{product.name}</h2>
+            </div>
+          </div>
         </div>
-        <div className="product-detail-info">
-          <h2 className="product-detail-name">{product.name}</h2>
-        </div>
-      </div>
-    </div>
   );
 };
 
 
-function LabDiagnostic() {
+function CriticalCare() {
   const [currentPage, setCurrentPage] = useState('products');
   const [selectedProduct, setSelectedProduct] = useState(null);
 
@@ -66,7 +66,7 @@ function LabDiagnostic() {
     <div className="lab-diagnostic-container">
       {currentPage === 'products' ? (
         <>
-          <h1 className="page-title">LAB DIAGNOSTICS</h1>
+          <h1 className="page-title">CRITICAL CARE</h1>
           <div className="products-grid">
             {labProducts.map((product) => (
               <ProductCard key={product.id} product={product} onViewMore={handleViewMore} />
@@ -82,4 +82,4 @@ function LabDiagnostic() {
   );
 }
 
-export default LabDiagnostic;
+export default CriticalCare;

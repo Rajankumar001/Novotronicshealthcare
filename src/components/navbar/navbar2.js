@@ -23,9 +23,9 @@ function Navbar2() {
         <div className="dropdown">Product
           <div className="dropdown-content">
             <a href="/labDiagnostic">Lab Diagnostic</a>
-            <a href="/">Critical Care</a>
-            <a href="/">POCT Devices</a>
-            <a href="/">Consumables</a>
+            <a href="/criticalcare">Critical Care</a>
+            <a href="/poctdevice">POCT Devices</a>
+            <a href="/consumable">Consumables</a>
            
           </div>
         </div>
