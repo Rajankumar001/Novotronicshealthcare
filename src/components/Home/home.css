@@ -107,17 +107,16 @@
   object-fit: cover;
   margin-bottom: 1rem; 
 }
-
 .cardName {
-  text-align: center;
-  padding: 15px;
-  width: 90%;
+text-align: center;
+padding: 12px;
+width: 85%;
 border-radius: 50px;
 background-color: #4F959D ;
-  font-size: 1.25rem; 
-  font-weight: 600; 
-  color:white; 
-  margin-top: 0.5rem; 
+font-size: 1.1rem; 
+font-weight: 600; 
+color:white; 
+margin-top: 0.5rem; 
 }
 .customer-logos .slick-slide {
   margin: 0 10px;

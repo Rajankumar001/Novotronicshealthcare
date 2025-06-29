@@ -1,6 +1,6 @@
 import React, {useState}from 'react'
-import Navbar2 from '../navbar/navbar2'
-import Navbar1 from '../navbar/navbar1'
+import Navbar2 from '../../Layout/navbar/navbar2'
+import Navbar1 from '../../Layout/navbar/navbar1'
 import Carousel from 'react-bootstrap/Carousel';
 import './home.css';
 import image1 from '../../assets/images/image1.jpg'
@@ -13,10 +13,11 @@ import Burari from '../../assets/images/Burari_hospital.png';
 import Maharishi from '../../assets/images/Maharishi_hospital.png';
 import bannerImage from '../../assets/images/bannerImage.jpg'
 import { cardsData } from '../../constants/HomepageData';
-import Footer from '../footer/footer';
+import Footer from '../../Layout/footer/footer';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
+import Layout from '../../Layout/Layout.js';
 
 function Home() {
   const settings = {
@@ -49,9 +50,7 @@ function Home() {
     setIndex(selectedIndex);
   };
   return (
-    <div className='home-screen'>
-         <Navbar1/>
-        <Navbar2/>
+    <Layout>
         <div className='carousel-container'>
  <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
@@ -111,8 +110,7 @@ function Home() {
       </Slider>
     </div>
     </div>
-    <Footer/>
-    </div>
+    </Layout>
   )
 }
 

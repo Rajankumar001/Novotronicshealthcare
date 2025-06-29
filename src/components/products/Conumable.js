@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-import { ArrowLeft, Star } from 'lucide-react';
+import { ArrowLeft} from 'lucide-react';
 import { labProducts } from '../../constants/LabDiagnostic'; 
 import './LabDiagnostic.css';
-import Navbar1 from '../navbar/navbar1';
-import Navbar2 from '../navbar/navbar2';
-import Footer from '../footer/footer';
+import Layout from '../../Layout/Layout';
 const ProductCard = ({ product, onViewMore }) => {
   return (
 <>
@@ -29,7 +27,7 @@ const ProductDetail = ({ product, onBack }) => {
             onClick={onBack}
             className="back-button"
           >
-            <ArrowLeft className="mr-2" size={20} /> 
+            <ArrowLeft className="mr-2 back-icon" size={20} /> 
           </button>
     
           <div className="product-detail-content">
@@ -60,9 +58,7 @@ function Consumable() {
   };
 
   return (
-    <>
-    <Navbar1/>
-    <Navbar2/>
+    <Layout>
     <div className="lab-diagnostic-container">
       {currentPage === 'products' ? (
         <>
@@ -77,8 +73,7 @@ function Consumable() {
         <ProductDetail product={selectedProduct} onBack={handleBackToProducts} />
       )}
     </div>
-    <Footer/>
-    </>
+    </Layout>
   );
 }
 

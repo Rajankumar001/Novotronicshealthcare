@@ -1,0 +1,21 @@
+.vision{
+     background-color: #fcfafa;
+    padding: 2rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-container{
+    font-family: poppins sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    max-width: 72rem; 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem; 
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+  border-radius: 0.5rem; 
+}

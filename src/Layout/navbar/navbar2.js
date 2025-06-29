@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import './navbar2.css';
 import { FaBars } from 'react-icons/fa';
-import Logo from '../../assets/images/NOVOTRONICS.png'
+import Logo from '../../assets/images/NOVOTRONICS.png';
+import { useNavigate } from 'react-router-dom';
 
 function Navbar2() {
+  const navigate = useNavigate();
   const [showMenu, setShowMenu] = useState(false);
 
   return (
@@ -12,12 +14,14 @@ function Navbar2() {
       <img src={Logo}  className='logo-image' alt='logo.png'/>
       </div>
       <div className="navbar-right desktop-menu">
-        <div className="dropdown active" >Home
+        <div className="dropdown active"  onClick={()=>{
+          navigate('/')
+        }}>Home
         </div>
         <div className="dropdown">About
           <div className="dropdown-content">
-            <a href="/">Team</a>
-            <a href="/">Vision</a>
+            <a href="/team">Team</a>
+            <a href="/vision">Vision</a>
           </div>
         </div>
         <div className="dropdown">Product
@@ -31,7 +35,10 @@ function Navbar2() {
         </div>
         <div className="dropdown">Career
         </div>
-        <div className="dropdown">Contact Us
+        <div className="dropdown"onClick={()=>{
+         navigate('/contact')
+        }} >Contact Us
+          
         </div>
       </div>
 
