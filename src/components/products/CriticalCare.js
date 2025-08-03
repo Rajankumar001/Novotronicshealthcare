@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
-import { labProducts } from '../../constants/LabDiagnostic'; 
+import { Criticalcare } from '../../constants/Criticalcare'; 
 import './LabDiagnostic.css';
 import Layout from '../../Layout/Layout';
 const ProductCard = ({ product, onViewMore }) => {
@@ -36,6 +36,11 @@ const ProductDetail = ({ product, onBack }) => {
             </div>
             <div className="product-detail-info">
               <h2 className="product-detail-name">{product.name}</h2>
+              <div className="product-details-list">
+            {product.specifications && (
+              <p><strong>specifications:</strong> {product.specifications}</p>
+            )}
+          </div>
             </div>
           </div>
         </div>
@@ -64,7 +69,7 @@ function CriticalCare() {
         <>
           <h1 className="page-title">CRITICAL CARE</h1>
           <div className="products-grid">
-            {labProducts.map((product) => (
+            {Criticalcare.map((product) => (
               <ProductCard key={product.id} product={product} onViewMore={handleViewMore} />
             ))}
           </div>

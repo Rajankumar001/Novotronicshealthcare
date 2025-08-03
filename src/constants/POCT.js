@@ -1,4 +1,4 @@
-import ABG_analyzer from '../assets/images/ABG_analyzer.jpeg';
+import ABG_analyzer from '../assets/images/bloodgas.png';
 import Fia_meter from '../assets/images/Fia_meter.jpg';
 import Dry_chemistry from '../assets/images/Dry_chemistry.jpg';
 import HB_meter from '../assets/images/HB_meter.jpeg';

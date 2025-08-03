@@ -4,7 +4,6 @@ import Electrolyte from '../assets/images/Electrolyte Analyzer.png';
 import semiAutomatedBiochem from '../assets/images/semiAutomatedBiochem.jpg';
 import elisaReader from '../assets/images/Elisa_Reader.jpg';
 import elisaWasher from '../assets/images/Elisa_Washer.jpg';
-
 export const labProducts = [
   {
     id: 1,

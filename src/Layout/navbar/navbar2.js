@@ -18,18 +18,15 @@ function Navbar2() {
           navigate('/')
         }}>Home
         </div>
-        <div className="dropdown">About
-          <div className="dropdown-content">
-            <a href="/team">Team</a>
-            <a href="/vision">Vision</a>
-          </div>
+        <div className="dropdown" onClick={()=>{
+         navigate('/vision')
+        }}>About
         </div>
         <div className="dropdown">Product
           <div className="dropdown-content">
             <a href="/labDiagnostic">Lab Diagnostic</a>
             <a href="/criticalcare">Critical Care</a>
             <a href="/poctdevice">POCT Devices</a>
-            <a href="/consumable">Consumables</a>
            
           </div>
         </div>
