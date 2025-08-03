@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './navbar2.css';
 import { FaBars } from 'react-icons/fa';
-import Logo from '../../assets/images/NOVOTRONICS.png';
+import Logo from '../../assets/images/Logo_Image.png';
 import { useNavigate } from 'react-router-dom';
 
 function Navbar2() {

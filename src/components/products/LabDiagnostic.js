@@ -36,6 +36,38 @@ const ProductDetail = ({ product, onBack }) => {
         </div>
         <div className="product-detail-info">
           <h2 className="product-detail-name">{product.name}</h2>
+          <div className="product-details-list">
+            {product.model && (
+              <p><strong>Model:</strong> {product.model}</p>
+            )}
+            {product.brand && (
+              <p><strong>Brand:</strong> {product.brand}</p>
+            )}
+            {product.usage && (
+              <p><strong>Usage:</strong> {product.usage}</p>
+            )}
+            {product.powerSupply && (
+              <p><strong>Power Supply:</strong> {product.powerSupply}</p>
+            )}
+            {product.sampleThroughput && (
+              <p><strong>Sample Throughput:</strong> {product.sampleThroughput}</p>
+            )}
+            {product.sampleVolume && (
+              <p><strong>Sample Volume:</strong> {product.sampleVolume}</p>
+            )}
+            {product.parameter && (
+              <p><strong>Parameter:</strong> {product.parameter}</p>
+            )}
+            {product.wavelengths && (
+              <p><strong>Wavelengths:</strong> {product.wavelengths}</p>
+            )}
+            {product.photometric && (
+              <p><strong>Photometric:</strong> {product.photometric}</p>
+            )}
+            {product.additionalParameters && (
+              <p><strong>Additional parameter:</strong> {product.additionalParameters}</p>
+            )}
+          </div>
         </div>
       </div>
     </div>

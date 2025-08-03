@@ -1,15 +1,15 @@
-import hematology from '../assets/images/hematology.png';
-import fullyAutomatedBioChem from '../assets/images/fullyAutobiochemistry.jpg';
-import Electrolyte from '../assets/images/Electrolyte Analyzer.png';
-import semiAutomatedBiochem from '../assets/images/semiAutomatedBiochem.jpg';
-import elisaReader from '../assets/images/Elisa_Reader.jpg';
-import elisaWasher from '../assets/images/Elisa_Washer.jpg';
+import ABG_analyzer from '../assets/images/ABG_analyzer.jpeg';
+import Fia_meter from '../assets/images/Fia_meter.jpg';
+import Dry_chemistry from '../assets/images/Dry_chemistry.jpg';
+import HB_meter from '../assets/images/HB_meter.jpeg';
+import glucometer from '../assets/images/glucometer.jpg';
+import Mispa from '../assets/images/Mispa.png';
 
-export const labProducts = [
+export const POCT = [
   {
     id: 1,
-    name: "3 Diff Hematology",
-    image: hematology,
+    name: "ABG Analyzer",
+    image: ABG_analyzer,
     model: "MX-LAB H3PD",
     brand: "Matrix Labs Diagnocare",
     usage: "Laboratory",
@@ -20,8 +20,8 @@ export const labProducts = [
   },
   {
     id: 2,
-    name: "Fully Automated Chemistry",
-    image: fullyAutomatedBioChem,
+    name: "FIA meter",
+    image: Fia_meter,
     model: "ASITRA C-MS",
     brand: "ASITRA",
     usage: "Benchtop | discrete random-access analyzer",
@@ -34,8 +34,8 @@ export const labProducts = [
   },
   {
     id: 3,
-    name: "Electrolyte Analyzer",
-    image: Electrolyte,
+    name: "DRY Chemistry",
+    image: Dry_chemistry,
     model: "Diagnoquip",
     brand: "Diagnolyte",
     usage: "Lab",
@@ -47,8 +47,8 @@ export const labProducts = [
   },
   {
     id: 4,
-    name: "Semi Automated Biochemistry",
-    image: semiAutomatedBiochem,
+    name: "HB meter",
+    image: HB_meter,
     model: "BC-224",
     brand: "Rapid",
     usage: null,
@@ -59,8 +59,8 @@ export const labProducts = [
   },
   {
     id: 5,
-    name: "Elisa Reader Rayto",
-    image: elisaReader,
+    name: "Glucometer",
+    image: glucometer,
     model: "RT 2100C",
     brand: "Rayto",
     usage: null,
@@ -73,8 +73,8 @@ export const labProducts = [
   },
   {
     id: 6,
-    name: "Elisa Washer Rayto",
-    image: elisaWasher,
+    name: "Protein Analyzer",
+    image: Mispa,
     model: "RT2600C",
     brand: "Rayto",
     usage: "96- or 48-well plate or strip",

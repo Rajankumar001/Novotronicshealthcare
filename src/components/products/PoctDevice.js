@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowLeft} from 'lucide-react';
-import { labProducts } from '../../constants/LabDiagnostic'; 
+import { POCT } from '../../constants/POCT'; 
 import './LabDiagnostic.css';
 import Layout from '../../Layout/Layout';
 const ProductCard = ({ product, onViewMore }) => {
@@ -64,7 +64,7 @@ function PoctDevice() {
         <>
           <h1 className="page-title">POCT DEVICES</h1>
           <div className="products-grid">
-            {labProducts.map((product) => (
+            {POCT.map((product) => (
               <ProductCard key={product.id} product={product} onViewMore={handleViewMore} />
             ))}
           </div>
