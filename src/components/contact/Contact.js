@@ -45,11 +45,8 @@ function ContactForm() {
     <Layout>
     <div className='contact'>
       <div className='top-contact'>
-        <div className='contact-image '>
-          <img src={contact} alt='banner' className='contact-image-banner'></img>
-        </div>
         <div className="contact-container">
-        <h2>Contact Us</h2>
+        <h2 style={{color:"#E5342C"}}>Contact Us</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
         <input type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} required />
@@ -59,6 +56,9 @@ function ContactForm() {
         <p className="status">{status}</p>
       </form>
     </div>
+     <div className='contact-image '>
+          <img src={contact} alt='banner' className='contact-image-banner'></img>
+        </div>
       </div>
        <div className='bottom-contact'>
         <div className='contact-box'>

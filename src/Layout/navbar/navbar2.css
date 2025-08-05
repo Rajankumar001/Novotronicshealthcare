@@ -28,7 +28,7 @@
   cursor: pointer;
 }
 .dropdown:hover{
-    color: rgb(77, 184, 210);
+    color: #E5342C;
 }
 
 .dropdown-content {

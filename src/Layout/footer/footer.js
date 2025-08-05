@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
   import { FaMapMarkerAlt } from "react-icons/fa";
   import { MdAddIcCall } from "react-icons/md";
   import { IoMdMail } from "react-icons/io";
+  import logo from '../../assets/images/Logo_Image.png';
 import './footer.css';
 function Footer() {
   return (
@@ -14,7 +15,8 @@ function Footer() {
 
 			<div class="footer-left">
 
-				<h3>Novo<span>tronics</span></h3>
+				{/* <h3>Novo<span>tronics</span></h3> */}
+				<img src={logo} width={200} height={70}></img>
 
 				<p class="footer-links">
 					<a href="#" class="link-1">Home</a>

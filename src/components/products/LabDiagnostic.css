@@ -204,8 +204,10 @@
   text-align: center;
 padding: 12px;
 width: 85%;
-border-radius: 50px;
-background-color: #4F959D ;
+/* border-radius: 50px; */
+border-radius: 5px;
+/* background-color: #4F959D ; */
+background-color:#E5342C;
 font-size: 1.1rem; 
 font-weight: 600; 
 color:white; 
@@ -216,8 +218,10 @@ margin-top: 0.5rem;
   font-size: 1.1rem; 
 font-weight: 600; 
   background-color: #fff; 
-  border: 2px solid #4F959D;
-  color: #4F959D;
+  /* border: 2px solid #4F959D; */
+   border: 2px solid #E5342C;
+  /* color: #4F959D; */
+  color: #E5342C;
 }
 .back-button{
   margin: 0;

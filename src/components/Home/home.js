@@ -65,9 +65,9 @@ function Home() {
     </Carousel>
         </div>
         <div className='banner-container'> 
-         <div className='left-banner'>
+         {/* <div className='left-banner'>
           <img src={bannerImage} alt='image2'></img>
-         </div>
+         </div> */}
          <div className='right-banner'>
           <h2 className='bannerTitle'>Welocome to Novotronics...</h2>
           <p> <b>Novotronics Healthcare,</b> we are committed to transforming the future of healthcare through innovation, precision, and care. As a trusted name in medical technology and health solutions, we combine cutting-edge research with practical applications to improve patient outcomes and support healthcare professionals worldwide.  
@@ -75,9 +75,9 @@ function Home() {
           </div>
         </div>
          <div className="appContainer">
-      <h1 className="heading">
+      {/* <h1 className="heading">
         Our Products
-      </h1>
+      </h1> */}
       <div className="gridContainer">
         {cardsData.map((card) => (
           <div

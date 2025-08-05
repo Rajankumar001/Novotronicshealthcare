@@ -6,7 +6,7 @@ function Vision() {
     <Layout>
     <div className='vision'>
       <div className='vision-container'>
-        <h2>About Us.</h2>
+        <h2 style={{color:'#E5342C'}}>About Us.</h2>
         <p>Novotronics Healthcare, established in 2025, is backed by over 8 years of rich experience in the healthcare industry. Our journey began long before our official inception, driven by a deep understanding of the evolving needs of healthcare professionals and institutions.</p>
         <p>At Novotronics Healthcare, we are committed to delivering innovative and reliable solutions tailored to meet the unique demands of our customers. Our focus lies in the IVD (In Vitro Diagnostics) industry, Critical Care sector, and Point-of-Care Testing (POCT), where precision, quality, and responsiveness are paramount.
 </p>

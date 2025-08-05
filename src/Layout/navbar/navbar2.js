@@ -11,7 +11,7 @@ function Navbar2() {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-      <img src={Logo}  className='logo-image' alt='logo.png'/>
+      {/* <img src={Logo}  className='logo-image' alt='logo.png'/> */}
       </div>
       <div className="navbar-right desktop-menu">
         <div className="dropdown active"  onClick={()=>{
