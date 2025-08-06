@@ -37,10 +37,156 @@ const ProductDetail = ({ product, onBack }) => {
             <div className="product-detail-info">
               <h2 className="product-detail-name">{product.name}</h2>
               <div className="product-details-list">
-            {product.specifications && (
-              <p><strong>specifications:</strong> {product.specifications}</p>
-            )}
-          </div>
+  {product.Type && (
+    <p><strong>Type:</strong> {product.Type}</p>
+  )}
+
+  {product.EnergyRange && (
+    <p><strong>Energy Range:</strong> {product.EnergyRange}</p>
+  )}
+
+  {product.Waveform && (
+    <p><strong>Waveform:</strong> {product.Waveform}</p>
+  )}
+
+  {product.Display && (
+    <p><strong>Display:</strong> {product.Display}</p>
+  )}
+
+  {product.ECGMonitoring && (
+    <p><strong>ECG Monitoring:</strong> {product.ECGMonitoring}</p>
+  )}
+
+  {product.OperationModes && (
+    <p><strong>Operation Modes:</strong> {product.OperationModes}</p>
+  )}
+
+  {product.ChargingTime && (
+    <p><strong>Charging Time:</strong> {product.ChargingTime}</p>
+  )}
+
+  {product.Controls && (
+    <p><strong>Controls:</strong> {product.Controls}</p>
+  )}
+
+  {product.Paddles && (
+    <p><strong>Paddles:</strong> {product.Paddles}</p>
+  )}
+
+  {product.Recording && (
+    <p><strong>Recording:</strong> {product.Recording}</p>
+  )}
+
+  {product.Alarms && (
+    <p><strong>Alarms:</strong> {product.Alarms}</p>
+  )}
+
+  {product.DataStorage && (
+    <p><strong>Data Storage:</strong> {product.DataStorage}</p>
+  )}
+
+  {product.PowerSupply && (
+    <p><strong>Power Supply:</strong> {product.PowerSupply}</p>
+  )}
+
+  {product.BatteryType && (
+    <p><strong>Battery Type:</strong> {product.BatteryType}</p>
+  )}
+
+  {product.StandardsCompliance && (
+    <p><strong>Standards Compliance:</strong> {product.StandardsCompliance}</p>
+  )}
+
+  {product.Applications && (
+    <p><strong>Applications:</strong> {product.Applications}</p>
+  )}
+  {product.VentilationModes && (
+    <p><strong>VentilationModes:</strong> {product.VentilationModes}</p>
+  )}
+
+  {product.Pateint && (
+    <p><strong>Pateint:</strong> {product.Pateint}</p>
+  )}
+
+  {product.TidalVolume && (
+    <p><strong>TidalVolume:</strong> {product.TidalVolume}</p>
+  )}
+
+  {product.RespiratoryRate && (
+    <p><strong>RespiratoryRate:</strong> {product.RespiratoryRate}</p>
+  )}
+
+  {product.InspiratoryPressure && (
+    <p><strong>InspiratoryPressure:</strong> {product.InspiratoryPressure}</p>
+  )}
+  {product.PEEP && (
+    <p><strong>PEEP:</strong> {product.PEEP}</p>
+  )}
+
+  {product.FiO && (
+    <p><strong>FiO:</strong> {product.FiO}</p>
+  )}
+
+  {product.MonitoringParamter && (
+    <p><strong>MonitoringParamter:</strong> {product.MonitoringParamter}</p>
+  )}
+
+  {product.Alarms && (
+    <p><strong>Alarms:</strong> {product.Alarms}</p>
+  )}
+
+  {product.BatteryBackup && (
+    <p><strong>BatteryBackup:</strong> {product.BatteryBackup}</p>
+  )}
+  {product.ParametersMonitored && (
+  <p><strong>Parameters Monitored:</strong> {product.ParametersMonitored}</p>
+)}
+
+{product.SyringeCompatibility && (
+  <p><strong>Syringe Compatibility:</strong> {product.SyringeCompatibility}</p>
+)}
+
+{product.InfusionModes && (
+  <p><strong>Infusion Modes:</strong> {product.InfusionModes}</p>
+)}
+
+{product.Accuracy && (
+  <p><strong>Accuracy:</strong> {product.Accuracy}</p>
+)}
+
+{product.OcclusionPressure && (
+  <p><strong>Occlusion Pressure:</strong> {product.OcclusionPressure}</p>
+)}
+
+{product.SafetyFeatures && (
+  <p><strong>Safety Features:</strong> {product.SafetyFeatures}</p>
+)}
+
+{product.Channels && (
+  <p><strong>Channels:</strong> {product.Channels}</p>
+)}
+
+{product.Leads && (
+  <p><strong>Leads:</strong> {product.Leads}</p>
+)}
+
+{product.PaperSize && (
+  <p><strong>Paper Size:</strong> {product.PaperSize}</p>
+)}
+
+{product.PrintingSpeed && (
+  <p><strong>Printing Speed:</strong> {product.PrintingSpeed}</p>
+)}
+
+{product.FrequencyResponse && (
+  <p><strong>Frequency Response:</strong> {product.FrequencyResponse}</p>
+)}
+
+{product.Sensitivity && (
+  <p><strong>Sensitivity:</strong> {product.Sensitivity}</p>
+)}
+
+</div>
             </div>
           </div>
         </div>
