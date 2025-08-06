@@ -9,8 +9,8 @@
     width: 100%;
     height: auto;
     /* background-color: #2A4759; */
-    /* background-color: #fcfafa; */
-    background-color: #FFD700;
+    background-color: #fcfafa;
+    /* background-color: #FFD700; */
 }
 .left-top-navbar{
     display:flex;

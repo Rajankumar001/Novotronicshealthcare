@@ -1,16 +1,16 @@
 
 .lab-diagnostic-container {
   min-height: 100vh;
-  background-color: #f3f4f6; /* bg-gray-100 */
-  padding: 2rem; /* p-8 */
+  background-color: #f3f4f6; 
+  padding: 2rem; 
 }
-
 .page-title {
-  font-size: 2.25rem; /* text-4xl */
-  font-weight: 800; /* font-extrabold */
+  font-size: 2.25rem; 
+  font-weight: 800; 
   text-align: center;
-  color: #1f2937; /* text-gray-800 */
-  margin-bottom: 2.5rem; /* mb-10 */
+  /* color: #1f2937; text-gray-800 */
+  color: #E5342C;
+  margin-bottom: 2.5rem; 
 }
 
 .products-grid {
