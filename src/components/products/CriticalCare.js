@@ -27,7 +27,7 @@ const ProductDetail = ({ product, onBack }) => {
             onClick={onBack}
             className="back-button"
           >
-            <ArrowLeft className="mr-2 back-icon" size={20} /> 
+            <ArrowLeft className="mr-2 back-icon" size={80} /> 
           </button>
     
           <div className="product-detail-content">
@@ -186,6 +186,15 @@ const ProductDetail = ({ product, onBack }) => {
   <p><strong>Sensitivity:</strong> {product.Sensitivity}</p>
 )}
 
+</div>
+<div className='more-enquiry'>
+  <a
+    href="https://wa.me/919266516565?text=Welcome%20Novotronics%20Healthcare%20!%20how%20can%20i%20help%20you"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button>For more enquiry</button>
+  </a>
 </div>
             </div>
           </div>

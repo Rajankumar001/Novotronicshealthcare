@@ -106,6 +106,9 @@
 }
 
 .product-detail-name {
+  text-align: start;
+  text-decoration: underline;
+  color: #E5342C;
   font-size: 1.875rem; /* text-3xl */
   font-weight: 700; /* font-bold */
   margin-bottom: 1rem; /* mb-4 */
@@ -147,18 +150,18 @@
   margin-bottom: 0.75rem; /* mb-3 */
 }
 
-.product-detail-list {
+.product-details-list {
   list-style: disc;
   list-style-position: inside;
-  margin-bottom: 1.5rem; /* mb-6 */
-  color: #4a5568; /* text-gray-700 */
+  margin-bottom: 1.5rem;
+  color: #4a5568; 
 }
 
-.product-detail-list li {
+.product-details-list li {
   margin-bottom: 0.25rem; /* Small margin for readability */
 }
 
-.product-detail-list strong {
+.product-details-list strong {
   font-weight: 700;
 }
 
@@ -229,8 +232,8 @@ font-weight: 600;
   font-size: 1.5rem;
    width: 50px;
    height: 50px;
-  border: 2px solid #4F959D;
-  color: #4F959D;
+  border: 2px solid #E5342C;
+  color: #E5342C;
   background-color: #fff;
   font-weight: 700;
    
@@ -238,4 +241,11 @@ font-weight: 600;
 .back-icon{
   font-size: 1rem;
   font-weight: 700;
+}
+.more-enquiry{
+  font-size: 1.2rem;
+  font-weight: 800;
+ float: right;
+  width: 180px;
+  border-radius: 50%;
 }

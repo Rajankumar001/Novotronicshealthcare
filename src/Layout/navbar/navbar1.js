@@ -21,8 +21,11 @@ function Navbar1() {
         <div>
        <FaLinkedin color='#0077B5' size={20}/>
           </div>  
-           <div>
-       <FaWhatsapp color='#25D366' size={20}/>
+           <div
+           >
+          <a href='https://wa.me/919266516565?text=Welcome%20Novotronics%20Healthcare%20!%20how%20can%20i%20help%20you' 
+          target="_blank"
+    rel="noopener noreferrer"><FaWhatsapp color='#25D366' size={20}/></a>
           </div>     
        </div>
     </div>

@@ -68,6 +68,16 @@ const ProductDetail = ({ product, onBack }) => {
               <p><strong>Additional parameter:</strong> {product.additionalParameters}</p>
             )}
           </div>
+<div className='more-enquiry'>
+  <a
+    href="https://wa.me/919266516565?text=Welcome%20Novotronics%20Healthcare%20!%20how%20can%20i%20help%20you"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button>For more enquiry</button>
+  </a>
+</div>
+
         </div>
       </div>
     </div>
