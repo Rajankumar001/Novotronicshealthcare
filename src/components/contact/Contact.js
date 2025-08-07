@@ -60,17 +60,6 @@ function ContactForm() {
           <img src={contact} alt='banner' className='contact-image-banner'></img>
         </div>
       </div>
-       <div className='bottom-contact'>
-        <div className='contact-box'>
-
-        </div>
-        <div className='contact-box'>
-
-        </div>
-        <div className='contact-box'>
-
-        </div>
-       </div>
     </div>
     </Layout>
   );
